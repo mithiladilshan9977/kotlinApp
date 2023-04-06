@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028327132305",
+    "project_id": "kotlineapp-b2600",
+    "storage_bucket": "kotlineapp-b2600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028327132305:android:e87b1af76e2733cf2d8330",
+        "android_client_info": {
+          "package_name": "com.example.kotlineappseconde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028327132305-mh2mm0orv4hp7ecklcsbnpc60devj594.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBll1kSZVIQ7YFmS86WfsDT03Qg4FYfHTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028327132305-mh2mm0orv4hp7ecklcsbnpc60devj594.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
