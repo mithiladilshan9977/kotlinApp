@@ -25,9 +25,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+
         android:layout_marginBottom="20dp"
         android:text="ironname"
-        android:textSize="20dp"
+        android:textSize="28dp"
         android:textStyle="bold" />
 
     <TextView
@@ -64,12 +65,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/quantity"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="28dp"
         android:text="Place Order"
         android:textAllCaps="false"
+        android:id="@+id/placeorderbtn"
+        android:background="@drawable/mainpagebuttons"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/placeorderbtn"
+        android:background="@color/itemPriceColor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount 30%"
+            android:textSize="30sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In new year season"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
 
 
 

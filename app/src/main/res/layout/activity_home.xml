@@ -19,7 +19,9 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:id="@+id/ironHolder"
+           android:background="@color/itemBGcolor"
            android:padding="10dp"
+           android:layout_margin="10dp"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintTop_toTopOf="parent">
@@ -39,7 +41,8 @@
                android:layout_height="wrap_content"
                android:padding="10dp"
                android:text="Dry iron-No Stick Soleplaten"
-               android:textSize="20sp"
+               android:textSize="28sp"
+               android:textStyle="bold"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/ironImage" />
 
@@ -51,7 +54,8 @@
 
                android:padding="2dp"
                android:text="Rs. 3500"
-               android:textSize="18sp"
+               android:textColor="@color/itemPriceColor"
+               android:textSize="20sp"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/elementName" />
 
@@ -93,7 +97,8 @@
                    android:layout_margin="2dp"
                    android:layout_weight="0.5"
                    android:text="Add to cart"
-                   android:background="@drawable/addtocartbtn"
+                   android:background="@drawable/ordernowbtn"
+
                    app:layout_constraintStart_toStartOf="parent" />
 
                <Button
@@ -114,8 +119,11 @@
        <androidx.constraintlayout.widget.ConstraintLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
+           android:layout_margin="10dp"
            android:padding="10dp"
-          android:id="@+id/lapHolder"
+           android:background="@color/itemBGcolor"
+
+           android:id="@+id/lapHolder"
            app:layout_constraintTop_toBottomOf="@id/ironHolder"
            android:layout_marginTop="30dp"
 
@@ -137,7 +145,8 @@
                android:layout_height="wrap_content"
                android:padding="10dp"
                android:text="Dell inspiron 3502 - pentium silver"
-               android:textSize="20sp"
+               android:textSize="28sp"
+               android:textStyle="bold"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/lapImage" />
 
@@ -148,8 +157,9 @@
                android:layout_marginLeft="15dp"
 
                android:padding="2dp"
-               android:text="Rs. 139,199"
-               android:textSize="18sp"
+               android:text="Rs. 3500"
+               android:textColor="@color/itemPriceColor"
+               android:textSize="20sp"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/LapName" />
 
@@ -219,6 +229,8 @@
            android:layout_height="wrap_content"
            android:padding="10dp"
             android:id="@+id/tvHolder"
+           android:background="@color/itemBGcolor"
+           android:layout_margin="10dp"
            app:layout_constraintTop_toBottomOf="@id/lapHolder"
            android:layout_marginTop="30dp"
            >
@@ -240,7 +252,8 @@
                android:layout_height="wrap_content"
                android:padding="10dp"
                android:text="NIKIAI 32*Inch Full HD (1080p)"
-               android:textSize="20sp"
+               android:textSize="28sp"
+               android:textStyle="bold"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/tvImage" />
 
@@ -252,7 +265,8 @@
 
                android:padding="2dp"
                android:text="Rs. 54,805"
-               android:textSize="18sp"
+              android:textSize="20sp"
+               android:textColor="@color/itemPriceColor"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
@@ -322,9 +336,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_margin="10dp"
         android:padding="10dp"
-
+        android:background="@color/itemBGcolor"
         app:layout_constraintTop_toBottomOf="@id/tvHolder"
         android:layout_marginTop="30dp"
 
@@ -345,7 +359,8 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Fantech HQ52 Gaming headset"
-            android:textSize="20sp"
+            android:textSize="28sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headphoneImage" />
 
@@ -354,10 +369,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-
+            android:textColor="@color/itemPriceColor"
             android:padding="2dp"
             android:text="Rs. 3,999"
-            android:textSize="18sp"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headphoneName" />
 
@@ -368,6 +383,7 @@
             android:layout_marginLeft="15dp"
             android:padding="2dp"
             android:text="Rs. 4,899"
+
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/realPriceheadphone" />

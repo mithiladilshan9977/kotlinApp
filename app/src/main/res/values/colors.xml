@@ -9,6 +9,14 @@
     <color name="white">#FFFFFFFF</color>
     <color name="add_to_cart_color">#173EFF</color>
     <color name="order_now_color">#E90000</color>
+    <color name="mainpagebuttoncolors">#0033CD</color>
+    <color name="itemBGcolor">#2C0035D6</color>
+    <color name="itemPriceColor">#D65D00</color>
+    <color name="textcolor">#FFE174</color>
+
+
+
+
 
 
 </resources>

@@ -8,18 +8,58 @@
     android:padding="10dp"
     tools:context=".loginActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/appicon"
+            android:id="@+id/signupimage"
+            android:elevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signupimage"
+            />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Username"
         android:hint="Username"
-        android:layout_marginTop="80dp"
+        android:textColorHint="@color/mainpagebuttoncolors"
+
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/useremail"
+        android:textColorHint="@color/mainpagebuttoncolors"
         android:inputType="textEmailAddress"
         android:layout_below="@+id/Username"
         android:hint="Your Email"
@@ -30,6 +70,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/userpassword"
         android:hint="Password"
+        android:textColorHint="@color/mainpagebuttoncolors"
         android:inputType="textPassword"
         android:layout_below="@+id/useremail"
         />
@@ -39,7 +80,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/ReenterPassword"
         android:inputType="textPassword"
-
+        android:textColorHint="@color/mainpagebuttoncolors"
         android:hint="Re-Enter password"
         android:layout_below="@+id/userpassword"
         />
@@ -48,6 +89,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signupbutton"
+        android:background="@drawable/mainpagebuttons"
+
         android:text="Sign up"
         android:layout_below="@+id/ReenterPassword"
         android:layout_marginTop="15dp"
@@ -58,9 +101,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log in"
+        android:background="@drawable/mainpagebuttons"
+android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupbutton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nedd help ?"
+        app:layout_constraintTop_toBottomOf="@id/loginbutton"
+        android:textColor="@color/mainpagebuttoncolors"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/needhelptext"
+
+        />
 
 </LinearLayout>
